@@ -18,8 +18,8 @@ const Nav = ({ handlechange, handleChange }) => {
   return (
     <nav>
       <div className="nav-logo">
-        <img src={mascot} alt={mascot} />
-        <img src={logoKyou} alt={logoKyou} />
+        <img className="nav-logo-mascot" src={mascot} alt={mascot} />
+        <img className="nav-logo-icons" src={logoKyou} alt={logoKyou} />
       </div>
       <div className="nav-container">
         <input

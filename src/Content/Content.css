@@ -1,10 +1,14 @@
 .main_content {
-  background: rgb(173, 173, 172);
   margin-left: 25rem;
   width: 65%;
   border-radius: 4px;
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 rgba(14, 14, 14, 0.1);
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .main_content {
     margin-left: 0px;
     width: 100%;

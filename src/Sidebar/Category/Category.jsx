@@ -16,25 +16,25 @@ const Category = ({ handlechange }) => {
         <Input
           handlechange={handlechange}
           value="sneakers"
-          title="Ready Stock"
+          title="Limited"
           name="test"
         />
         <Input
           handlechange={handlechange}
           value="flats"
-          title="Back Order"
+          title="Exclusive"
           name="test"
         />
         <Input
           handlechange={handlechange}
           value="sandals"
-          title="Sandals"
+          title="Bonus"
           name="test"
         />
         <Input
           handlechange={handlechange}
           value="heels"
-          title="Heels"
+          title="Revive"
           name="test"
         />
       </div>

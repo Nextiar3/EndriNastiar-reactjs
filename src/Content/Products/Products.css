@@ -1,39 +1,46 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 30px;
+  margin-left: 50px;
   z-index: -2;
+  gap: 30px;
+  overflow: hidden;
+  flex-direction: center;
+  margin-right: 40px;
 }
 
 .card {
-  margin: 20px;
-  border: 2px solid #ededed;
-  padding: 20px;
   cursor: pointer;
+  width: 17%;
+  margin-top: 20px;
 }
 
 .card-img {
-  width: 13rem;
-  margin-bottom: 1rem;
+  width: 10rem;
+  border-radius: 4px;
 }
 
 .card-title {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   font-family: sans-serif;
-}
-
-.card-reviews {
-  margin-bottom: 1rem;
+  font-size: 14px;
   display: flex;
+  flex-direction: column;
+}
+.card-btn {
+  border: none;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
-.rating-star {
-  color: #d5ab55;
-}
-
-.total-reviews {
-  font-size: 0.9rem;
-  margin-left: 10px;
+.btn-status {
+  padding: 4px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  border: none;
 }
 
 .card-price {
@@ -42,13 +49,20 @@
   align-items: center;
   font-family: sans-serif;
 }
-
-.bag-icon {
-  color: #535353;
+.price {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(162, 162, 162);
+}
+.new-price {
+  color: rgb(252, 76, 2);
+  font-size: 15px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .card-container {
-    margin-left: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(15px, 1fr));
   }
 }
