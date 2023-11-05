@@ -1,0 +1,12 @@
+.main_content {
+  background: rgb(173, 173, 172);
+  margin-left: 25rem;
+  width: 65%;
+  border-radius: 4px;
+}
+@media (max-width: 640px) {
+  .main_content {
+    margin-left: 0px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+.recommended-flex {
+  display: flex;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.recommended-title {
+  margin-top: 90px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 20px 0px;
+  width: 40%;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+@media (max-width: 640px) {
+  .recommended-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+  }
+  .recommended-title {
+    margin-left: 2rem;
+  }
+  .btns {
+    margin: 4px;
+  }
+}
