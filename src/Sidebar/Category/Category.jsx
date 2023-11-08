@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Input from "../../components/Input";
 import "./Category.css";
 
@@ -15,25 +14,25 @@ const Category = ({ handlechange }) => {
 
         <Input
           handlechange={handlechange}
-          value="sneakers"
-          title="Limited"
-          name="test"
-        />
-        <Input
-          handlechange={handlechange}
-          value="flats"
+          value="exclusive"
           title="Exclusive"
           name="test"
         />
         <Input
           handlechange={handlechange}
-          value="sandals"
+          value="Limited"
+          title="Limited"
+          name="test"
+        />
+        <Input
+          handlechange={handlechange}
+          value="Bonus"
           title="Bonus"
           name="test"
         />
         <Input
           handlechange={handlechange}
-          value="heels"
+          value="Revive"
           title="Revive"
           name="test"
         />

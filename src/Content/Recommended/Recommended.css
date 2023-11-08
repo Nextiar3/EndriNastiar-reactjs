@@ -20,11 +20,14 @@
   margin-right: 6px;
   background: transparent;
   border: none;
-  border-radius: 5px;
   color: #323232;
   cursor: pointer;
   margin-top: 0px;
   font-size: 15px;
+}
+
+.btns:hover {
+  color: #fc4c02;
 }
 
 @media (max-width: 640px) {

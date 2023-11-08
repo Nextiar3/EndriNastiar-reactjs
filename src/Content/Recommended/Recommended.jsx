@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import "./Recommended.css";
 
 const Recommended = ({ handleClick }) => {
@@ -6,7 +5,7 @@ const Recommended = ({ handleClick }) => {
     <div>
       <h2 className="recommended-title">Recommended</h2>
       <div className="recommended-flex">
-        <button onClick={handleClick} className="btns">
+        <button onClick={handleClick} className="btns active">
           All Items
         </button>
         <button onClick={handleClick} value="ReadyStock" className="btns">
